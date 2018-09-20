@@ -13,12 +13,15 @@
     </nav>
     
     <section class="contato">
-       
-        <div class="map">
-       <p class="titulo">ONDE NOS ENCONTRAR</p>
-       <div class="mapa2">
-           
-       </div>
+
+        <div class="mapa2">
+                
+                <p class="titulo">ONDE NOS ENCONTRAR</p>
+                <div id="map" style="width:400px; height: 370px;"></div>
+
+        
+       </div> 
+
         </div>
       <div class="formulario"> 
         <P class="titulo">FALE CONOSCO</P>
@@ -28,6 +31,25 @@
           <textarea name="" id="" cols="30" rows="10"></textarea>
       </div>
     </section>
+    <!-- ======= Mapa ======= -->
+    <script>
+            function initMap() {
+                var uluru = {
+                    lat: -22.9871293,
+                    lng: -43.6514069
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 13,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGgHmDeD5_Q7Mh5sUPgaQKOtPE6vElSWA&callback=initMap">
+                    </script>
 </body>
 </html>
 

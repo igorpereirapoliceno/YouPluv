@@ -12,22 +12,22 @@ nav{
    display: flex;
    align-items: center;
    justify-content: space-around;
-   background-color:lavenderblush;
+   background-color:#d4d6d8;
    padding-top: 50px;
    padding-bottom: 50px;
 }
-.map{
+.mapa{
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 50%;
 }
-.mapa2{
+/* .mapa2{
     background-color: #092230;
     width: 470px;
     height: 300px;
     margin-top: 30px;
-}
+} */
 .titulo{
     display: flex;
     justify-content: center;
