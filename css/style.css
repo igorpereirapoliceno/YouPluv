@@ -6,17 +6,26 @@ nav{
     display: flex;
     justify-content: center;
     padding: 5px 0;
-    background-color: #115771;
+    
 }
 .contato{
    display: flex;
    align-items: center;
    justify-content: space-around;
+   background-color:lavenderblush;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.map{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
 }
 .mapa2{
-    background-color: aquamarine;
-    width: 500px;
-    height: 500px;
+    background-color: #092230;
+    width: 470px;
+    height: 300px;
     margin-top: 30px;
 }
 .titulo{
@@ -32,11 +41,11 @@ nav{
     width: 50%;
 }
 input,textarea{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 50%;
     height: 25%;
-    padding: 15px;
+    padding: 10px;
     border-style: solid;
     border-color: #115771;
-    border-radius: 20px;
+    
 }
